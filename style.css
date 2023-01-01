@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Montserrat:wght@300&display=swap");
+body {
+  font-family: Montserrat;
+  background: #778f8a;
+  color: #fff;
+}
+body header {
+  position: relative;
+  min-height: 4.5em;
+  height: 100%;
+  padding: 0 2em;
+  background: #5e605b;
+}
+body header nav {
+  display: block;
+  float: left;
+  font-size: large;
+}
+body .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #778f8a;
+  padding: 10px;
+}
+body .container .content {
+  padding: 30px;
+  background-color: #5e605b;
+}
+body .container .success {
+  color: lightgreen;
+}
+body .container .fail {
+  color: red;
+}
+body footer {
+  position: relative;
+  min-height: 4.5em;
+  height: 100%;
+  padding: 0 2em;
+  background: #5e605b;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
